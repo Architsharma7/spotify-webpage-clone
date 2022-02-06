@@ -1,10 +1,10 @@
-html, body {
+body {
     max-width: 100%;
-    overflow-x: none;
+    overflow-x: hidden;
+    overflow-y: auto;
     margin: 0;
     padding: 0;
-    position: absolute;
-    width: 100%;
+    max-height: auto;
 }
 .main-header{
   background-color: black;

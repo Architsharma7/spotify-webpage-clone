@@ -2,7 +2,7 @@
 <html>
  <head>
    <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+   <meta name="viewport" content="width=device-width, initial-scale= 1.0, maximum-scale=1.0, user-scalable=0">
    <title>Spotify-Listen for free</title>
    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Spotify_App_Logo.svg/2048px-Spotify_App_Logo.svg.png" type="image/x-icon"/>
    <link rel="stylesheet" href="style1.css"/>
@@ -13,9 +13,9 @@
    <div class="main-header">
 
      <a href="https://www.spotify.com/in-en/" class="logo">
-       <span><p><b>Spotify</p></b></span>
-       <i class="fa fa-spotify" style="font-size:30px"></i>
-       
+       <div><p><b></p></b><i class="fa fa-spotify" style="font-size:30px"></i>Spotify</div>
+
+
      </a>
 
      <div class="header-right">
@@ -31,41 +31,42 @@
    </div>
    <div class="first-section">
      <div class="img1">
-      <img src="https://i.scdn.co/image/ab678e040000ed3aed58911aecc6dbc16949f40b" alt="Demonstration of mobile app"/>
+      <img src="https://i.scdn.co/image/ab678e040000ed3aed58911aecc6dbc16949f40b" id="phone-img" alt="Demonstration of mobile app"/>
      </div>
      <div class="text-first">
-      <p>Play millions of songs and podcast,for free.</p>
+      <p>Play millions of songs and podcast, for free.</p>
      </div>
      <br/>
-     <button class="first-button fst-rnd">Get Spotify Free</button>
+     <a href="https://www.spotify.com/in-en/signup">
+
+      <button class="first-button fst-rnd">Get Spotify Free</button>
+     </a>
    </div>
    <br/>
-   <h4>Why Spotify</h4>
+   <h4 class="heading-two">Why Spotify?</h4>
    <br/>
    <div class="row">
      <div class="column">
-       <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQyNl4LcUyBeeM3U94nRflqLly8sSBLwNf-LVu11Y0nPYtbdCtS"/>
+       <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQyNl4LcUyBeeM3U94nRflqLly8sSBLwNf-LVu11Y0nPYtbdCtS" class="images"/>
        <h6 class="head"><b>Play your favorites.</b></h6>
        <p class="sub">Listen to the songs you love, and discover new music and podcasts.</p>
      </div>
      <div class="column">
-       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoXE95bgUvbwgK3ZpG2DaZLXDo0TwaHJnCPQVRb0NawxS9iXaw"/>
+       <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSSNO8rrSL64Y4t25TG8xPuKuNiymLwZONO4MEz8pBlKqXkx9i4" class="images"/>
        <h6 class="head"><b>Playlists made easy</b></h6>
        <p class="sub">We'll help you make playlists. Or enjoy playlists made by music experts.</p>
      </div>
      <div class="column">
-       <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR3IVv9CE-ulyVcz5sfEYFNm7f_LSJu_xNvW61n4KXJeN3pfSjH"/>
+       <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR3IVv9CE-ulyVcz5sfEYFNm7f_LSJu_xNvW61n4KXJeN3pfSjH" class="images"/>
        <h6 class="head"><b>Make it yours.</b></h6>
        <p class="sub">Tell us what you like, and we'll recommend music for you.</p>
      </div>
      <div class="column">
-       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROmVy8arYslx-F6nVQLIRAfDP6mSDtQxGRCTuE1Wj45WsLrYKd"/>
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROmVy8arYslx-F6nVQLIRAfDP6mSDtQxGRCTuE1Wj45WsLrYKd" class="images"/>
        <h6 class="head"><b>Save mobile data</b></h6>
        <p class="sub">To use less data when you play music, turn on Data Saver in Settings.</p>
      </div>
    </div>
-   <br/>
-   <br/>
    <div class="container" id="lst">
      <div class="text text-size">
       <p class="text1">It's free.</p>
@@ -112,36 +113,45 @@
     </div>
     <a href="https://www.spotify.com/in-en/signup">
      <button class="getfree button-rnd">Get Spotify Free</button>
-    </a> 
-  </div>
-  <div class="footer">
-   <a href="https://www.spotify.com/in-en/" class="logo">
-     <p>Spotify</p>
+   </a>
+ </div>
+ <div class="footer">
+   <a href="https://www.spotify.com/in-en/">
+     <span class="logo1"><i class="fa fa-spotify" style="font-size:40px">Spotify</i></span>
    </a>
    <div class="details">
-     <div class="compan">
-       <p id="company1">COMPANY</p>
-       <a href="m">About</a>
-       <a href="n">Jobs</a>
-       <a href="o">For the Record</a>
+     <div>
+       <p id="comp">COMPANY</p>
+       <ul class="uli">
+
+         <li><a href="m" class="colr">About</a></li>
+         <li><a href="n" class="colr">Jobs</a></li>
+         <li><a href="o" class="colr">For the Record</a></li>
+       </ul>
      </div>
-     <div class="comm">
-       <p id="comm1">COMMUNITIES</p>
-       <a href="x">For Artists</a>
-       <a href="y">Developers</a>
-       <a href="z">Advertising</a>
-       <a href="q">Investors</a>
-       <a href="w">Vendors</a>
+     <div>
+       <p id="comp">COMMUNITIES</p>
+       <ul class="uli">
+         <li><a href="x" class="colr">For Artists</a></li>
+         <li><a href="y" class="colr">Developers</a></li>
+         <li><a href="z" class="colr">Advertising</a></li>
+         <li><a href="q" class="colr">Investors</a></li>
+         <li><a href="w" class="colr">Vendors</a></li>
+       </ul>
      </div>
-     <div class="links">
-      <p id="links1">USEFUL LINKS</p>
-      <a href="l">Support</a>
-      <a href="j">Web Player</a>
-      <a href="h">Free Mobile App</a>
+     <div>
+      <p id="comp">USEFUL LINKS</p>
+      <ul class="uli">
+         <li><a href="l" class="colr">Support</a></li>
+         <li><a href="j" class="colr">Web Player</a></li>
+         <li><a href="h" class="colr">Free Mobile App</a></li>
+      </ul>
      </div>
+     <a href="#" class="fa fa-instagram"></a>
+     <a href="#" class="fa fa-twitter"></a>
+     <a href="b" class="fa fa-facebook"></a>
    </div>
  </div>
-
 
 
 

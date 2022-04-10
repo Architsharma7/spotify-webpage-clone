@@ -23,10 +23,6 @@ html, body{
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
 }
-.text-s{
-  font-size: 14px;
-  text-align: right;
-}
 .main-header a{
   float: left;
   color: white;

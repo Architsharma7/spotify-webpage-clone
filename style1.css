@@ -312,9 +312,11 @@ li{
   width: 49px;
   text-align: center;
   text-decoration: none;
-  border-radius: 50%;
   color: white;
   padding-top: 40px;
+}
+.fa-spotify:hover{
+  color: #00FF7F;
 }
 .fa-spotify{
   height: auto;
@@ -334,16 +336,19 @@ li{
   height: 10px;
   font-size: 30px !important;
   margin-left: 100px;
+  border-radius: 50%;
 }
 .fa-facebook{
   background-color: darkgrey;
   height: 10px;
   font-size: 30px !important;
+  border-radius: 50%;
 }
 .fa-twitter{
   background-color: darkgrey;
   height: 10px;
   font-size: 30px !important;
+  border-radius: 50%;
 }
 
 
